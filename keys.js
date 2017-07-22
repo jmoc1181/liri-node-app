@@ -10,7 +10,7 @@ exports.twitterKeys =  Twitter ({
   access_token_secret: 'Q4WiTrn8p1zbjnROkhv57QI0V2iJtnXZfRKcXjMgWEwdl',
 });
 
-
+//slice
 exports.commands = { 
 	action:process.argv[2], 
 	value:process.argv[3]
