@@ -24,27 +24,3 @@ exports.spotifyKeys = new Spotify({
   secret: '31573142e5bb48368f765307d7cb3656'
 });
  
-
-
-
-//use request package and file system 
-//packages for spotify and twitter
-//init to make sure we have json
-//
-
-/*
-var nodeArgs = process.argv[3];
-// Create an empty variable for holding the movie name
-value = "";
-
-// Loop through all the words in the node argument
-// And do a little for-loop magic to handle the inclusion of "+"s
-for (var i = 3; i < nodeArgs.length; i++) {
-  if (i > 3 && i < nodeArgs.length) {
-    value = value + "+" + nodeArgs[i];
-  }
-  else {
-    value += nodeArgs[i];
-  }
-}
-*/

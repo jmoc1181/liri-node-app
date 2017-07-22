@@ -29,6 +29,7 @@ if (keys.commands.action === 'spotify-this-song' && keys.commands.value === unde
 	spotifyNull(); 
 }
 
+
 if (keys.commands.action === 'do-what-it-says') { 
 	doIt(); 
 }
@@ -59,20 +60,6 @@ request(nothingURL, function(error, response, body) {
   })
 };
 
-
-/*var secondNode = keys.commands.value;
-// Create an empty variable for holding the movie name
-	var secondNode = keys.commands.value; 
-	var movieName = "";
-
-for (var i = 3; i < secondNode.length; i++) {
-  if (i > 3 && i < secondNode.length) {
-    movieName = movieName + "+" + secondNode[i];
-  }
-  else {
-    movieName += secondNode[i];
-  }
-}*/
 
 
 //movie function if there is a query 
